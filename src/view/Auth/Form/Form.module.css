@@ -1,0 +1,163 @@
+h3 {
+  color: var(--Orange);
+  text-align: center;
+}
+
+.formWrapper {
+  width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10rem;
+  align-content: center;
+  background-color: var(--Dark-cream);
+  flex-wrap: wrap;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--Dark-cyan);
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  color: var(--Dark-cyan);
+  width: 75%;
+  font-size: 1.5rem;
+}
+
+.btnForm {
+  width: 14rem;
+  height: 3rem;
+  border-color: var(--Orange);
+  border-radius: 1.5rem;
+  border-style: none;
+  background-color: var(--Orange);
+  color: var(--Dark-cream);
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.picture {
+  width: 50%;
+}
+
+.linkToForgotPassword {
+  text-align: center;
+  text-decoration: none;
+  color: var(--Dark-cyan);
+  font-size: 1rem;
+  padding-bottom: 0.4rem;
+}
+
+.forgotPasswordTitle {
+  font-size: 2rem;
+  align-self: start;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+.btnForgotPassword {
+  width: 20rem;
+  height: 4rem;
+  padding: 0.5rem;
+  border-color: var(--Orange);
+  border-radius: 2rem;
+  border-style: none;
+  background-color: var(--Orange);
+  color: var(--Dark-cream);
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+.modalWrapperRegister {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40%;
+  background-color: var(--Cream);
+  border-radius: 3rem;
+  border: 0.3rem solid;
+  border-color: var(--Orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.modalContentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--Orange);
+}
+
+.modalTitle {
+  color: var(--Orange);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.modalText {
+  color: var(--Dark-cyan);
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+.modalTextSmall {
+  color: var(--Dark-cyan);
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  line-height: 1.6rem;
+}
+
+.ButtonsWrapperModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.btnModal {
+  height: 3rem;
+  width: 14rem;
+  background-color: var(--Orange);
+  border-style: none;
+  border-color: var(--Orange);
+  border-radius: 1.5rem;
+  color: var(--Dark-cream);
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin: 1rem;
+}

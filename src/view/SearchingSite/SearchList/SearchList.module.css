@@ -1,0 +1,105 @@
+.SearchWrapper {
+  width: 100%;
+}
+
+.SearchBanner {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem ;
+  background-color: var(--Dark-cream);
+}
+
+.SearchIllustration {
+  margin-right: 5rem;
+}
+
+.SearchBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.SearchDescription {
+  color: var(--Orange);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.SearchInput{
+  width: 30rem;
+  height: 4rem;
+  font-size: 2rem;
+  border-color: var(--Very-dark-blue);
+  padding: 0.4rem;
+  padding-left: 1.5rem;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+}
+
+.SearchButton {
+  width: 20rem;
+  height: 4rem;
+  margin: 1.5rem;
+  border-color: var(--Orange);
+  border-radius: 2rem;
+  border-style: none;
+  background-color: var(--Orange);
+  color: var(--Cream);
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.listBookWrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 70%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.ListBooks {
+  display: flex;
+  color: var(--Very-dark-blue);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.listBooksFail {
+  display: flex;
+  color: var(--Very-dark-blue);
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: right;
+  height: 3rem;
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.reactPaginate {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,66 @@
+.userWrapper {
+  margin-top: 5rem;
+  background-color: var(--Light-cream);
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.user_picture {
+  min-width: 180px;
+  max-height: 180px;
+  margin-right: 3rem;
+}
+
+.user_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.user_text h2 {
+  font-size: 2.2rem;
+  color: var(--Orange);
+}
+
+.user_shelf {
+  width: 75%;
+  margin: 2rem auto;
+  font-size: 2rem;
+  color: var(--Orange);
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 2rem auto;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: 0;
+  padding: 0.8rem 3rem;
+  background-color: var(--Orange);
+  color: var(--Light-cream);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  transition: 0.3s;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

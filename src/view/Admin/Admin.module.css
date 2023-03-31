@@ -1,0 +1,213 @@
+.adminBox {
+  margin-top: 4rem;
+  background-color: var(--Darker-cream);
+}
+
+.adminWrapper {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.formAdminWrapper {
+  margin-bottom: 4rem;
+  width: 50%;
+}
+
+.adminTitle {
+  font-size: 2.4rem;
+  color: var(--Orange);
+  margin: 1rem;
+}
+.adminLabel {
+  color: var(--Dark-cyan);
+  width: 75%;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.adminSelect,
+.adminInput,
+.adminSearchInput {
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--Dark-cyan);
+  height: 2.5rem;
+  font-size: 1.3rem;
+  width: 80%;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--Dark-cyan);
+}
+
+
+.statusBox {
+  display: flex;
+  width: 80%;
+  justify-content: start;
+  margin-left: 1rem;
+}
+.statusWrapper {
+  display: flex;
+  margin-right: 2.2rem;
+  margin-top: 1rem;
+}
+
+.status {
+  height: 1.5rem;
+  width: 2rem;
+  margin-right: 0.8rem;
+}
+
+.statusDetails {
+  font-size: 1.5rem;
+}
+
+.buttonWrapper {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+#buttonAppearance {
+  height: 3rem;
+  width: 15rem;
+  background-color: var(--Orange);
+  border-style: none;
+  border-color: var(--Orange);
+  border-radius: 1.5rem;
+  color: var(--Dark-cream);
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+.illustration {
+  align-self: end;
+  justify-self: end;
+  height: 70%;
+}
+
+.adminPanelTitleWrapper {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.adminPanelTitle {
+  font-size: 2.5rem;
+  color: var(--Orange);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.listItemBox {
+  background-color: var(--Darker-cream);
+  margin-top: 2rem;
+}
+
+.listItemWrapper {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookCoverLI {
+  height: 10rem;
+  margin: 1rem;
+}
+
+.bookDescriptionLI {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 60%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--Dark-cyan);
+}
+
+.bookTitleLI {
+  font-weight: bold;
+}
+
+.ButtonsWrapperLI {
+  display: flex;
+  width: 40%;
+}
+
+#buttonAppearanceLI {
+  height: 2.5rem;
+  width: 9rem;
+  background-color: var(--Orange);
+  border-style: none;
+  border-color: var(--Orange);
+  border-radius: 1.5rem;
+  color: var(--Dark-cream);
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background-color: var(--Cream);
+  border-radius: 3rem;
+  border: 0.3rem solid;
+  border-color: var(--Orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.modalContentWrapper {
+  display: flex;
+  flex-direction: column;
+  border-color: var(--Orange);
+}
+
+.modalTitle {
+  color: var(--Orange);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.ButtonsWrapperModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.BtnModal {
+  height: 2.5rem;
+  width: 12rem;
+  background-color: var(--Orange);
+  border-style: none;
+  border-color: var(--Orange);
+  border-radius: 1.5rem;
+  color: var(--Dark-cream);
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.adminSearchInput {
+  width: 30%;
+  margin-left: 20%;
+}

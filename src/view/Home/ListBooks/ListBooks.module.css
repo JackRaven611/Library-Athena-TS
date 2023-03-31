@@ -1,0 +1,42 @@
+.listBookWrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 70%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.ListBooks {
+  display: flex;
+  color: var(--Orange);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  align-items: right;
+  height: 3rem;
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.reactPaginate {
+  display: flex;
+  justify-content: flex-end;
+}

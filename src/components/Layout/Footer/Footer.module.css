@@ -1,0 +1,52 @@
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: var(--Dark-cyan);
+  margin-top: 10vw;
+}
+.footerLogo {
+  display: flex;
+  align-items: center;
+}
+
+.pFooter {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  display: flex;
+  font-size: 3rem;
+  color: var(--Orange);
+}
+
+.imgLogo {
+  height: 5rem;
+  padding: 0.2rem 1rem;
+}
+
+.footerAuthors {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Cream);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.footerAuthorsList {
+  color: var(--Orange);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 1rem;
+}
+
+.footerAuthor {
+  margin-left: 1rem;
+}

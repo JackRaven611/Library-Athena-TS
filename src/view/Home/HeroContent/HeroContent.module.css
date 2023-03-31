@@ -1,0 +1,41 @@
+.headerWrapper {
+  /* padding-top: 10vw; */
+  width: 100%;
+  height: 25vw;
+  background-color: var(--Dark-cyan);
+}
+
+.illustrationWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 5vw;
+}
+
+.illustration {
+  height: 100%;
+}
+
+.description {
+  z-index: 2;
+  position: absolute;
+  top: 12vw;
+  left: 9vw;
+  color: var(--Dark-cream);
+  font-size: 3.5rem;
+}
+
+.btn {
+  width: 30rem;
+  height: 4rem;
+  background-color: var(--Orange);
+  border-style: none;
+  border-radius: 40px;
+  color: var(--Dark-cream);
+  font-size: 2rem;
+  margin-top: 4vw;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
